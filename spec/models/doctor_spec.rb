@@ -17,5 +17,5 @@ RSpec.describe Doctor, type: :model do
   it { should validate_presence_of(:likes) }
   it { should validate_presence_of(:profile_url) }
   it { should validate_presence_of(:phone) }
-  it { should validate_presence_of(:created_by) }
+
 end
